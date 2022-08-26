@@ -14,13 +14,3 @@ console.log({ base64 });
 
 const dataUrl = `data:image/png;base64,${base64}`;
 console.log({ dataUrl });
-
-
-// https://stackoverflow.com/questions/21797299/convert-base64-string-to-arraybuffer
-// https://stackoverflow.com/questions/42800419/converting-html-canvas-to-binary-image-data
-// https://gergelykonczdotcom.wordpress.com/2014/07/20/draw-binary-image-to-the-html5-canvas/
-// https://developer.mozilla.org/en-US/docs/Web/API/Blob
-// https://blog.csdn.net/liuarmyliu/article/details/109721795
-// https://laracasts.com/discuss/channels/javascript/javascript-binary-image
-// https://www.cnblogs.com/poorpeople/p/9407789.html
-// https://stackoverflow.com/questions/32666458/node-js-canvas-image-data
