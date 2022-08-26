@@ -12,14 +12,8 @@ console.log({ buffer, length: buffer.length });
 const base64 = buffer.toString("base64");
 console.log({ base64 });
 
-const dataUrl = `data:image/jpeg;base64,${base64}`;
+const dataUrl = `data:image/png;base64,${base64}`;
 console.log({ dataUrl });
-
-function toBase64(arr) {
-  return btoa(arr.reduce((data, byte) => data + String.fromCharCode(byte), ""));
-}
-const base64_1 = toBase64(buffer);
-console.log({ base64_1 });
 
 
 // https://stackoverflow.com/questions/21797299/convert-base64-string-to-arraybuffer
