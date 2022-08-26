@@ -1,0 +1,11 @@
+{
+  "name": "img-true",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "blurhash": "^1.1.5",
+    "sharp": "^0.30.7"
+  }
+}
